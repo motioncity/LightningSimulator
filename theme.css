@@ -1,0 +1,155 @@
+#background
+{
+    position: absolute;
+    top:-5px;
+    left:-5px;
+    height:648px;
+    width:1371px;
+    -webkit-filter: brightness(1);
+    z-index: 1;
+}
+
+#darkerBG
+{
+    position: absolute;
+    top:-5px;
+    left:-5px;
+    height:648px;
+    width:1371px;
+    -webkit-filter: brightness(.05); 
+    z-index:0;
+}
+
+#cloudGIF
+{
+    z-index: 0;
+    position:absolute;
+    transform: scale(.4,.4);
+     z-index: 2;
+}
+
+#cloud
+{
+    position:absolute;
+    top:-75px;
+    left:300px;
+    right:0px;
+    z-index: 5;
+    
+}
+
+#lightning
+{
+  position:absolute;
+    top:160px;
+    left:230px;
+    right:0px;
+    z-index: 4;
+    transform: scale(1.4,1.9);
+}
+
+.leftSprites,.rightSprites
+{
+    position:absolute;
+    z-index: 3;
+}
+
+
+.leftSprites
+{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -ms-filter: "FlipH";
+    filter: FlipH;
+}
+
+.rightRamona,.rightScott
+{
+    position:absolute;
+    top:400px;
+    left:0px;
+}
+
+.leftRamona,.leftScott
+{
+    position:absolute;
+    top:400px;
+    left:-1350px;
+}
+
+/*
+#leftRamona1
+{
+    left:-1350px;
+}
+
+#leftScott1
+{
+    left:-1350px;
+}
+
+#rightRamona1
+{
+    left:0px;
+}
+
+#rightScott1
+{
+    left:0px;
+}
+*/
+.gameOver{
+    visibility: hidden;
+}
+
+#message{
+    position: absolute;
+    top: 150px;
+    left: 300px;
+   font-family: 'Press Start 2P', cursive;
+   font-size:600%;
+   color:white;
+   z-index: 9;
+}
+
+#ramonaCounter{
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    font-family: 'Press Start 2P', cursive;
+    font-size:150%;
+    color:white;
+    z-index: 9;
+}
+
+#scottCounter{
+    position: absolute;
+    top: 400px;
+    left: 500px;
+    font-family: 'Press Start 2P', cursive;
+    font-size:150%;
+    color:white;
+    z-index: 9;
+}
+
+.score,.timer{
+    font-family: 'Press Start 2P', cursive;
+    font-size:200%;
+    position: absolute;
+    z-index:9;
+    color:white;
+}
+
+.score{
+    top:-10px;
+    left:30px;
+}
+
+.timer
+{
+    top:-10px;
+    left:1100px;
+}
