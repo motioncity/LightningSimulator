@@ -16,3 +16,5 @@ http://www.youtube.com/user/c9ide.
 
 Happy coding!
 The Cloud9 IDE team
+
+A web application game in which you are a cloud and your goal is to strike as many characters as possible
